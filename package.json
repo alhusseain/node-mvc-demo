@@ -8,11 +8,19 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "To understand and implement the **Model-View-Controller (MVC)** pattern using:",
   "dependencies": {
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
-    "mongoose": "^8.12.1",
+    "mongoose": "^8.13.1",
     "pug": "^3.0.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alhusseain/node-mvc-demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alhusseain/node-mvc-demo/issues"
+  },
+  "homepage": "https://github.com/alhusseain/node-mvc-demo#readme"
 }

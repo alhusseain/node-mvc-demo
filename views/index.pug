@@ -8,7 +8,12 @@ html
     ul
       each item in items
         li= item.name
+        form(action="/delete" method="POST")
+          button(type="submit" name = "deleted" value = item.name) Delete Item
+          
+           
     form(action="/add" method="POST")
       input(type="text" name="name" placeholder="Enter item" required)
       button(type="submit") Add Item
+    
     script(src="/script.js")
